@@ -47,11 +47,11 @@
                     <li class="list-group-item">
                         <?= $prs['namapasien']; ?>
                         <a href="<?= base_url(); ?>periksa/hapus/<?= $prs['id']; ?>"
-                        class="badge badge-danger float-right" onclick="return confirm('Apakah anda yakin ingin menghapus data?');">Hapus</a>
+                        class="badge badge-danger float-right mr-2" onclick="return confirm('Apakah anda yakin ingin menghapus data?');">Hapus</a>
                         <a href="<?= base_url(); ?>periksa/ubah/<?= $prs['id']; ?>"
-                        class="badge badge-success float-right">Ubah</a>
+                        class="badge badge-success float-right mr-2">Ubah</a>
                         <a href="<?= base_url(); ?>periksa/detail/<?= $prs['id']; ?>"
-                        class="badge badge-primary float-right">Detail</a>
+                        class="badge badge-primary float-right mr-2">Detail</a>
                     </li>
                 <?php endforeach ?>
             </ul>
