@@ -38,7 +38,7 @@ class Periksa extends CI_Controller {
         } else {
             $this->Periksa_model->tambahDataPeriksa();
             $this->session->set_flashdata('flash', 'Ditambahkan');
-            redirect('index.php/periksa');
+            redirect('periksa');
         }
     }
 
@@ -47,7 +47,7 @@ class Periksa extends CI_Controller {
     {
         $this->Periksa_model->hapusDataPeriksa($id);
         $this->session->set_flashdata('flash', 'Dihapus');
-        redirect('index.php/periksa');
+        redirect('periksa');
     }
 
     public function detail($id)
@@ -78,7 +78,7 @@ class Periksa extends CI_Controller {
         } else {
             $this->Periksa_model->ubahDataPeriksa();
             $this->session->set_flashdata('flash', 'Diubah');
-            redirect('index.php/periksa');
+            redirect('periksa');
         }
     }
 
