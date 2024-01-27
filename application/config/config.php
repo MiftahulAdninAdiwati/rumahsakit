@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 // $config['base_url'] = 'http://localhost/ci3rumahsakit/';
-$config['base_url'] = 'https://miftahul.xyz/';
+$config['base_url'] = 'https://miftahul.xyz/index.php/';
 
 /*
 |--------------------------------------------------------------------------
